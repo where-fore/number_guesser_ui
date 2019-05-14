@@ -1,0 +1,70 @@
+             Udemy Unity 2D:
+            Number Guesser UI
+-----------------------------------------
+
+-------------
+----To Do----
+-------------
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~/////////CONTENT/////////~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~-Neat Possible Additions-~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+restart button (need sprite)
+    > maybe add a check in Gameplay for impossible guesses, and ask to restart
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~-------Polish--------~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~--------Code---------~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Find way for canvas x-y values to be 1 unit per pixel, for centering uses
+
+optimize resource sizes
+
+Create peon-face shaped button
+
+refactor peon voice manager and audio manager (and buttom manager) to be consistent with each referencing each other
+
+reformat audio to .ogg
+
+consider using https://docs.unity3d.com/ScriptReference/AudioSource.PlayClipAtPoint.html instead of audio manager
+
+
+
+____________________________
+|--------------------------|
+|(((Notes for dev/design)))|
+|--------------------------|
+Core Game Design
+    - Player Experience
+        > Joyful
+    - Core Mechanic
+        > Choose a number, and AI guesses
+    - Theme
+        > Silly orcs
+    - Core Game Loop
+        > Player chooses number, AI guesses until it gets it
+    -
+
+Game Theme
+    - Skin
+        > Silly orcs, Warcraft ARPG style
+    
+    - Tone; voice, images etc.
+        > Orc peon narrator
+        > Reference: https://media.moddb.com/images/mods/1/20/19931/WC3ScrnShot_050612_233651_01.jpg
+    -
